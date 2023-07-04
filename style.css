@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@600&family=Inconsolata:wght@300;500&display=swap');
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+     
+}
+h2 {
+    font-size: 24px;
+    font-family: 'Insolata', monospace;
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: 700;
+    }
+
+.content-container {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-img img {
+    width: 539.224px;
+    height: 447.426px;
+    flex-shrink: 0;
+}
+
+.content-info {
+    display: flex;
+    width: 586px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+.content-info  h2 {
+    color: var(--gray-1, #333);
+font-size: 64px;
+font-family: 'Inconsolata', monospace;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -2.24px;
+text-transform: capitalize;
+
+}
+
+.content-info p {
+    color: var(--gray-2, #4F4F4F);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Inconsolata', monospace;
+    margin-top: 36px;
+    width: 381px;
+    height: 108px;
+    margin-left: 20px ;
+}
+button { 
+    width: 216px;
+    height: 68px;
+    flex-shrink: 0;
+    background: var(--gray-1, #333);    
+    color: white;
+    margin-left: 20px ;
+    cursor: pointer;
+}
+footer {
+    margin-top: 350px;
+    text-align: center;
+    padding: 20px;
+    color: #BDBDBD;
+   
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .content-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content-img img {
+        width: 286.83px;
+        height: 238px;
+
+    }
+    .content-info {
+         
+        display: flex;
+        width: 350px;
+        flex-direction: column;
+        flex-shrink: 0;
+    }
+    .content-info h2 {
+        color: var(--gray-1, #333);
+        font-size: 48px;
+        font-family: 'Inconsolata', monospace;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -1.68px;
+    }
+    .content-info p {
+        color: var(--gray-2, #4F4F4F);
+        font-size: 24px;
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+    button {
+        width: 216px;
+    height: 68px;
+    flex-shrink: 0;
+    }
+    footer {
+        color: #BDBDBD;
+    text-align: center;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top:70px ;
+    margin: 0px;
+    text-align: center;
+    }
+}
